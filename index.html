@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pessimismo storico di Leopardi - Mappa interattiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pessimismo storico di Leopardi</h1>
+    <p>Mappa interattiva: dall&apos;insoddisfazione alla natura madre benigna</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sensismo.html">Sensismo</a>
+      <a href="idillio.html">Idillio</a>
+      <a href="teoria-visione-suono.html">Teoria della visione e del suono</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section-intro">
+      <p>
+        Clicca sulle diverse zone della mappa del <span class="highlight">pessimismo storico</span>
+        per esplorare come Leopardi descrive l&apos;uomo, la conoscenza e il ruolo dell&apos;immaginazione.
+      </p>
+      <p>
+        Alcune aree sono attive:
+        la colonna di sinistra porta al <strong>sensismo</strong>, la parte destra alla
+        <strong>teoria della visione e del suono</strong>, e la zona bassa dedicata alla
+        <strong>natura madre benigna</strong> introduce l&apos;<strong>idillio leopardiano</strong>.
+      </p>
+    </section>
+    <section class="image-wrapper">
+      <img src="assets/pessimismo-storico.jpg"
+           alt="Schema del pessimismo storico di Leopardi"
+           usemap="#mappaPessimismo" />
+      <map name="mappaPessimismo">
+        <!-- colonna sinistra: uomo, infinito, insoddisfazione -->
+        <area shape="rect"
+              coords="0,0,450,900"
+              href="sensismo.html"
+              alt="Conoscenza, sensismo e insoddisfazione"
+              title="Conoscenza, sensismo e insoddisfazione" />
+        <!-- colonna destra: dolore storico, allontanamento dalla natura -->
+        <area shape="rect"
+              coords="450,0,900,700"
+              href="teoria-visione-suono.html"
+              alt="Teoria della visione e del suono"
+              title="Dolore storico e bisogno di immaginazione" />
+        <!-- parte bassa: ruolo della natura, immaginazione, illusioni, madre benigna -->
+        <area shape="rect"
+              coords="0,700,900,1400"
+              href="idillio.html"
+              alt="Natura madre benigna e idillio"
+              title="Natura madre benigna e idillio" />
+      </map>
+      <p class="image-caption">
+        Mappa concettuale del pessimismo storico: l&apos;uomo desidera un piacere infinito,
+        la storia aumenta il dolore, la natura offre come rimedio l&apos;immaginazione e le illusioni.
+        La mappa è cliccabile: esplora le varie parti.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
